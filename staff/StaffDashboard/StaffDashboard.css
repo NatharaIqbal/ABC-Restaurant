@@ -1,0 +1,43 @@
+.dashboard-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.orders-table th, .orders-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.orders-table th {
+    background-color: #f4f4f4;
+}
+
+.status.completed {
+    color: green;
+}
+
+.status.out-for-delivery {
+    color: orange;
+}
+
+.status.in-transit {
+    color: blue;
+}
+
+.payment.paid {
+    color: green;
+}
+
+.payment.pending {
+    color: red;
+}

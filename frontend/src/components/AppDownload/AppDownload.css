@@ -1,0 +1,44 @@
+.app-download {
+    margin: auto;
+    margin-top: 100px;
+    font-size: clamp(24px, 4vw, 36px);
+    text-align: center;
+    font-weight: 700;
+    color: #222; /* Deep color for strong contrast */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.app-download::before {
+    content: "Download Now!";
+    display: block;
+    font-size: clamp(16px, 2vw, 24px);
+    margin-bottom: 10px;
+    color: #ff5722; /* Passionate orange color */
+    font-weight: bold;
+}
+
+.app-download-platforms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(15px, 3vw, 25px);
+    margin-top: 40px;
+    padding-bottom: 80px; /* Added padding at the bottom for extra space */
+}
+
+.app-download-platforms img {
+    width: clamp(120px, 30vw, 180px);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, filter 0.3s ease-in-out;
+    cursor: pointer;
+    padding: 15px; /* Increased padding for a more spacious feel */
+    border-radius: 12px; /* More rounded corners */
+    border: 2px solid #ff5722; /* Passionate border color */
+    filter: grayscale(0%) brightness(100%);
+}
+
+.app-download-platforms img:hover {
+    transform: scale(1.1) rotate(3deg); /* Slight rotation on hover for a playful effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* More prominent shadow */
+    filter: grayscale(0%) brightness(120%); /* Highlight image on hover */
+}

@@ -1,0 +1,131 @@
+.add {
+  width: 70%;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #6d6d6d;
+  font-size: 16px;
+}
+
+.add form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.add-img-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px dashed #dcdcdc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s;
+}
+
+.add-img-upload p {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #333;
+}
+
+.add-img-upload label {
+  cursor: pointer;
+}
+
+.add-img-upload img {
+  width: 150px; /* Increased size for better visibility */
+  height: auto;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+.add-img-upload input[type="file"] {
+  display: none;
+}
+
+.add-img-upload:hover {
+  border-color: #d9534f; /* Tomato shade on hover */
+}
+
+.add-product-name,
+.add-product-description {
+  width: calc(50% - 15px);
+  max-width: 500px;
+}
+
+.add-product-name input,
+.add-product-description textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #333;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.add-product-name input:focus,
+.add-product-description textarea:focus {
+  border-color: #d9534f;
+  box-shadow: 0 0 5px rgba(217, 83, 79, 0.3);
+  outline: none;
+}
+
+.add-product-description textarea {
+  resize: vertical; /* Allows vertical resizing */
+  min-height: 150px;
+}
+
+.add-category-price {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.add-category-price select,
+.add-category-price input {
+  flex: 1;
+  max-width: 250px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #333;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.add-category-price select:focus,
+.add-category-price input:focus {
+  border-color: #d9534f;
+  box-shadow: 0 0 5px rgba(217, 83, 79, 0.3);
+  outline: none;
+}
+
+.add-btn {
+  max-width: 168px;
+  padding: 12px;
+  border: none;
+  background-color: tomato;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #c9302c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-btn:focus {
+  outline: 2px solid #c9302c;
+  outline-offset: 4px;
+}

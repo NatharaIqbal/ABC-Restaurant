@@ -1,0 +1,74 @@
+/* Container for all orders */
+.orders-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Styling for table */
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.orders-table th, .orders-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.orders-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.orders-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.orders-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Status and Payment Status */
+.order-status {
+  font-weight: bold;
+}
+
+.order-status.completed {
+  color: green;
+}
+
+.order-status.out-for-delivery {
+  color: orange;
+}
+
+.order-status.in-transit {
+  color: blue;
+}
+
+.payment-status.paid {
+  color: green;
+}
+
+.payment-status.pending {
+  color: red;
+}
+
+/* Food Items List */
+.orders-table ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.orders-table li {
+  margin-bottom: 5px;
+}

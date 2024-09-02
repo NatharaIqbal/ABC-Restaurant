@@ -1,0 +1,19 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+    background-color: #ffffff; /* Added background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added shadow for better separation */
+}
+
+.navbar .logo {
+    width: max(10%, 80px);
+}
+
+.navbar .profile {
+    width: 40px;
+    border-radius: 50%; /* Make profile image circular */
+    border: 2px solid #ddd; /* Added border for profile image */
+}

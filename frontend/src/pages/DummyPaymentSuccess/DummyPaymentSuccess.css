@@ -1,0 +1,36 @@
+.dummy-payment-success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+.dummy-payment-success h1 {
+    font-size: 2.5rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.dummy-payment-success p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.dummy-payment-success button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dummy-payment-success button:hover {
+    background-color: #45a049;
+}
