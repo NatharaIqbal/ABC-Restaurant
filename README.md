@@ -81,5 +81,4 @@ restaurant-management-system/
 ## 📧 Contact
 
   For any inquiries, feel free to reach out at natharanasreen@gmail.com.
-  LinkedIn: https://www.linkedin.com/in/nathara-nasreen-iqbal-b5514230b/
 
