@@ -1,40 +1,41 @@
 # 🍽️ ABC Restaurant - Online Reservation System
 
 ## Overview
-  The Restaurant Management System is a comprehensive web platform designed to enhance the operations of a restaurant. It enables Admins, Users, and Staff to perform their respective roles effectively, ensuring a seamless dining experience.
+The Restaurant Management System is a comprehensive web platform designed to enhance the operations of a restaurant. It enables Admins, Users, and Staff to perform their respective roles effectively, ensuring a seamless dining experience.
 
 ## 🚀 Features
 
 ### 👨‍💼 Admin Features
-  - Add Food Items: Easily add new items to the menu.
-  - Edit Food Items: Update existing menu items.
-  - Remove Food Items: Delete items from the menu.
-  - View Users: Access a list of registered users.
-  - Manage Orders: View and manage customer orders.
-  - View Reports: Generate and view operational reports.
-  
+- Add Food Items: Easily add new items to the menu.
+- Edit Food Items: Update existing menu items.
+- Remove Food Items: Delete items from the menu.
+- View Users: Access a list of registered users.
+- Manage Orders: View and manage customer orders.
+- View Reports: Generate and view operational reports.
+
 ### 👥 User Features
-  - Register: Create a new account.
-  - Login: Access your account with secure authentication.
-  - View Menu: Browse the restaurant's offerings.
-  - Manage Cart: Add, remove, and view items in your cart.
-  - Place Order: Order directly from the cart.
-  - Payment: Secure payment processing.
-  - Order Preferences: Choose between Dine-In, Table Reservation, and Delivery.
+- Register: Create a new account.
+- Login: Access your account with secure authentication.
+- View Menu: Browse the restaurant's offerings.
+- Manage Cart: Add, remove, and view items in your cart.
+- Place Order: Order directly from the cart.
+- Payment: Secure payment processing.
+- Order Preferences: Choose between Dine-In, Table Reservation, and Delivery.
 
 ### 👨‍🍳 Staff Features
-  - View Orders: Access all customer orders.
-  - Process Orders: Update the status of customer orders.
+- View Orders: Access all customer orders.
+- Process Orders: Update the status of customer orders.
 
-## 🔧 Installation  
+## 🔧 Installation
 
 ### Prerequisites
-  Node.js
-  MongoDB
-  npm (Node Package Manager)
+- Node.js
+- MongoDB
+- npm (Node Package Manager)
 
 ## 📁 Project Structure
 
+```bash
 restaurant-management-system/
 │
 ├── backend/                 # Backend (Node.js, Express, MongoDB)
@@ -60,7 +61,7 @@ restaurant-management-system/
 │   └── package.json         # Admin panel dependencies
 │
 ├── .env                     # Environment variables
-└── README.md                # Project documentation
+└── README.md                # Project documentation 
 
 ## 💻 Usage
 
