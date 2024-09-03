@@ -1,4 +1,4 @@
-# 🍽️ Restaurant Management System
+# 🍽️ ABC Restaurant - Online Reservation System
 
 ## Overview
   The Restaurant Management System is a comprehensive web platform designed to enhance the operations of a restaurant. It enables Admins, Users, and Staff to perform their respective roles effectively, ensuring a seamless dining experience.
