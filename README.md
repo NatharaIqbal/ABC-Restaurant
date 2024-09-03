@@ -61,7 +61,8 @@ restaurant-management-system/
 │   └── package.json         # Admin panel dependencies
 │
 ├── .env                     # Environment variables
-└── README.md                # Project documentation 
+└── README.md                # Project documentation
+```
 
 ## 💻 Usage
 
